@@ -1,0 +1,267 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: rgba(5, 47, 50, 0.711);
+    color: #333;
+    line-height: 1.6;
+}
+
+.dancing-script-style {
+font-family: "Dancing Script", cursive; /* Font ya Dancing Script */
+font-weight: 700; /* Uzito wa fonti */
+font-size: 45px; /* Ukubwa wa fonti */
+color: rgb(12, 170, 15); /* Rangi ya maandishi */
+text-shadow: 1px 1px 0 black, /* Kivuli cha mstari mweusi */
+     -1px 1px 0 black,
+     1px -1px 0 black,
+     -1px -1px 0 black;
+text-align: center; /* Maandishi katikati */
+margin: 20px auto; /* Nafasi juu na chini, maandishi katikati */
+}
+
+
+/* General Styling for Fees Section */
+.fees-section {
+    text-align: center; /* Center text alignment */
+    padding: 20px; /* Add padding for spacing */
+    margin: 30px 0; /* Space between this section and others */
+    color: #f0e3e3; /* Black text color */
+    font-family: Arial, sans-serif; /* Simple and professional font */
+}
+
+.fees-section h4 {
+    font-size: 28px; /* Larger font size for the heading */
+    margin-bottom: 15px;
+    font-weight: bold; /* Make the heading bold */
+}
+
+.fees-section h5 {
+    font-size: 22px; /* Slightly smaller for subheadings */
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.fees-section p {
+    font-size: 18px; /* Standard font size for paragraphs */
+    margin: 10px 0;
+}
+
+.fees-section ul {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0; /* Remove padding */
+    margin: 20px 0;
+}
+
+.fees-section ul li {
+    font-size: 18px; /* Maintain readability */
+    margin: 8px 0;
+}
+
+
+
+
+/* Mtindo wa saa */
+.clock-container {
+    position: fixed;
+    top: 10px; /* Nafasi ya juu */
+    right: 10px; /* Nafasi ya kulia */
+ 
+    padding: 10px 20px;
+    border: 2px solid #f5f1f1; /* Mstari wa kisanduku */
+    border-radius: 8px; /* Kona za duara */
+    font-family: Arial, sans-serif;
+    color: #5079e2; /* Rangi ya maandishi */
+    font-size: 18px;
+    z-index: 1000; /* Hakikisha iko juu ya kila kitu */
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2); /* Kivuli */
+    text-align: center; /* Maandishi ya katikati */
+}
+
+.format-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    font-size: 16px; /* Ukubwa wa mshale */
+    cursor: pointer;
+    color: #333; /* Rangi ya mshale */
+    
+    border: 2px solid #1af40a; /* Mstari wa duara */
+    border-radius: 50%; /* Fanya duara */
+    margin: 10px auto 0; /* Kuweka katikati */
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.format-icon:hover {
+    background-color: #ff0000; /* Rangi ya bluu unapobofya */
+    color: #fff; /* Rangi ya mshale unapobofya */
+    transform: scale(1.1); /* Punguza au ongeza kidogo mshale */
+}
+
+
+
+.header {
+    background: #8b0000;
+    color: rgb(8, 188, 32);
+    text-align: center;
+    padding: 28px 10px;
+}
+
+.header h1 {
+    font-size: 28px;
+    margin: 0;
+}
+
+.header h2 {
+    font-size: 25px;
+    margin: 5px 0;
+}
+
+.content {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background: rgb(33, 210, 41);
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.content h3 {
+    color: #8b0000;
+    margin-top: 0;
+}
+
+.content h4 {
+    margin-bottom: 10px;
+    color: #8d0d0d;
+}
+
+.content p {
+    margin-bottom: 10px;
+}
+
+.content ul {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+
+.content ul li {
+    margin-bottom: 8px;
+}
+
+
+
+/* contats */
+
+
+.footer {
+    background: rgba(16, 23, 16, 0.5);
+    color: #ffffff;
+
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+}
+
+.footer-container {
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.footer-section {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-section h3 {
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.footer-section p {
+    font-size: 14px;
+    margin: 0;
+    text-align: center;
+
+    color: #aaa;
+}
+
+.footer-section ul {
+    list-style: none;
+    text-align: center;
+    text-align: center;
+    padding: 0;
+}
+
+.footer-section ul li {
+    font-size: 14px;
+    color: #aaa;
+    text-align: center;
+    margin: 5px 0;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    left: 100px;
+}
+
+.social-icons a img {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    left: 100px;
+  
+}
+
+.stars {
+    color: #ffd700;
+    font-size: 16px;
+}
+
+.star-icon {
+    color: #00ff00;
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+
+
+
+/* Video ya mandharinyuma */
+.background-video {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+object-fit: cover;
+z-index: -1;
+
+.enroll-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 30px;
+    background: #0066cc;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.enroll-button:hover {
+    background: #005bb5;
+}
+
